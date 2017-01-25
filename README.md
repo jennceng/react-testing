@@ -172,7 +172,9 @@ What do I want to test?
 
 **ProTip: **Many of our application interactions are asynchronous, for when first visiting the page a fetch is enacted. By using a setTimeout, we can ensure that events happen in certain sequences, we don’t want to make assertions on how the website should look until the promise of the fetch is resolved! Likewise, when pressing a button, we want to make sure whatever state changes happen before making expectations. With setTimeout, we can be the master of the sequence in which code is executed.
 
-debugger can be very finicky in tests, I often just console.log the pages contents when I am first writing up my tests, sort of a cheap save\_and\_open\_page to see text.
+debugger can be very finicky in tests, I often just console.log the pages contents when I am first writing up my tests, sort of a cheap save\_and\_open\_page to see text.  
+
+Some of the functions below, such as createResponseFromFixture and simulateIfPresent are helper functions in my test/support folder.  These were functions developed to test our internal software, feel free to grab what you need from this repo, and make sure to update your `testHelper.js` accordingly.  If you want to use this same fixture pattern, also take a look at changes to the `karma.conf.js` file.
 
 ```js
 // userSeesBarsSpec.js
