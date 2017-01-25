@@ -9,23 +9,21 @@
        "bar_id":41,
        "rating":5,
        "body":
-        "Flexitarian deep v direct trade lo-fi. Etsy cliche disrupt goth kombucha viral cold-pressed normcore. Whatever etsy occupy cronut. Marfa direct trade green juice brunch put a bird on it keffiyeh organic +1.",
-       "created_at":"2017-01-25T15:41:36.718Z",
-       "updated_at":"2017-01-25T15:41:36.718Z"},
+        "Flexitarian deep v direct trade lo-fi. Etsy cliche disrupt goth kombucha viral cold-pressed normcore. Whatever etsy occupy cronut. Marfa direct trade green juice brunch put a bird on it keffiyeh organic +1."
+      },
       {"id":78,
        "bar_id":41,
        "rating":4,
        "body":
-        "Keffiyeh franzen wayfarers church-key pork belly pop-up meggings listicle. Irony sriracha gastropub intelligentsia shoreditch. Brunch cray street narwhal normcore.",
-       "created_at":"2017-01-25T15:41:36.721Z",
-       "updated_at":"2017-01-25T15:41:36.721Z"},
+        "Keffiyeh franzen wayfarers church-key pork belly pop-up meggings listicle. Irony sriracha gastropub intelligentsia shoreditch. Brunch cray street narwhal normcore."
+      },
       {"id":79,
        "bar_id":41,
        "rating":5,
        "body":
-        "Wes anderson raw denim listicle waistcoat biodiesel tacos. Pinterest schlitz etsy tousled brooklyn venmo. Fanny pack migas you probably haven't heard of them portland retro pour-over schlitz.",
-       "created_at":"2017-01-25T15:41:36.724Z",
-       "updated_at":"2017-01-25T15:41:36.724Z"}]},
+        "Wes anderson raw denim listicle waistcoat biodiesel tacos. Pinterest schlitz etsy tousled brooklyn venmo. Fanny pack migas you probably haven't heard of them portland retro pour-over schlitz."
+      }]},
+
    {"id":42,
     "name":"Charlie's Kitchen",
     "url":"http://localhost:3000/bars/42",
@@ -36,7 +34,6 @@
        "bar_id":42,
        "rating":5,
        "body":
-        "Hashtag blog iphone direct trade xoxo kogi retro. Jean shorts tousled tilde franzen beard migas you probably haven't heard of them lumbersexual.",
-       "created_at":"2017-01-25T15:41:36.728Z",
-       "updated_at":"2017-01-25T15:41:36.728Z"}]}]
+        "Hashtag blog iphone direct trade xoxo kogi retro. Jean shorts tousled tilde franzen beard migas you probably haven't heard of them lumbersexual."
+      }]}]
 }

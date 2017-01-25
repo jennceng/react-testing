@@ -39,7 +39,7 @@ describe('Bars Index', () => {
         <App />
       );
     });
-    
+
     it('shows a reviews of that bar if user clicks on it', done => {
       setTimeout(() => {
         let drink = wrapper.findWhere(n => {
