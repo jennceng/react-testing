@@ -10,7 +10,6 @@ class App extends Component {
       bars: []
     }
     this.handleClick = this.handleClick.bind(this);
-    this.handleReviewClick = this.handleReviewClick.bind(this);
   }
 
   handleClick(id) {
@@ -21,16 +20,7 @@ class App extends Component {
     }
   }
 
-  handleReviewClick(id) {
-    fetch(`/api/v1/reviews/${id}/edit`)
-      .then((response) => response.json())
-      .then((responseData => {
-        this.setState({inFocusReview: responseData})
-      }))
-  }
-
   componentDidMount() {
-    debugger;
     fetch('/api/v1/bars.json')
       .then((response) => response.json())
       .then((responseData) => {
@@ -58,14 +48,11 @@ class App extends Component {
           reviews={bar.reviews}
           url={bar.url}
           onClick={onClick}
-          inFocusReview={this.state.inFocusReview}
-          onReviewClick={this.handleReviewClick}
         />
       )
     })
     return(
       <div className="bars">
-        <h1 className="page-title"> Bars </h1>
         {bars}
       </div>
     )
