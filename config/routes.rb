@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :bars, only: [:index]
+      resources :bars, only: [:index, :show]
       resources :reviews, only: [:edit, :update]
     end
   end
