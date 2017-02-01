@@ -11,7 +11,7 @@ class BarsIndexContainer extends Component {
 
   componentDidMount() {
     fetch('/api/v1/bars.json')
-      .then((response) => response.json()).then((d) => {debugger;})
+      .then((response) => response.json())
       .then((responseData) => {
         this.setState({bars: responseData})
       })
@@ -33,6 +33,7 @@ class BarsIndexContainer extends Component {
       <div className="bars">
         <h2> I am the Bars Index Container </h2>
         {bars}
+        {this.props.children}
       </div>
     )
   }

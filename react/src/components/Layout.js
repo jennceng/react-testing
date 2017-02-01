@@ -4,7 +4,7 @@ const Layout = (props) => {
   return(
     <div>
       <span>
-        When I grow up, I will be a dope header.
+        When I grow up, I will be a dope header. 
       </span>
       <br />
       <h1 className="page-title"> Bars </h1>
@@ -14,4 +14,3 @@ const Layout = (props) => {
 }
 
 export default Layout;
-  

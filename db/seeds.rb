@@ -6,10 +6,10 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Bar.find_or_create_by(name: "Paddy's Pub", address: "Philadelphia", hours_of_operation: "whenever Charlie turns on the 'coors' light")
-Bar.find_or_create_by(name: "Suds", address: "Also Philly")
-Bar.find_or_create_by(name: "Phoenix Landing", address: "Central Square", cover_charge: "10 bucks after 10pm")
-Bar.find_or_create_by(name: "Backbar", address: "union square discreet alley", cover_charge: "none")
+Bar.find_or_create_by(name: "Paddy's Pub", address: "Somewhere in Philadelphia", hours_of_operation: "whenever Charlie turns on the 'coors' light sign - Closing")
+Bar.find_or_create_by(name: "Suds", address: "Also Philly", hours_of_operation: "4:00PM - 2:00AM")
+Bar.find_or_create_by(name: "Phoenix Landing", address: "Central Square", cover_charge: "10 bucks after 10pm", hours_of_operation: "11:00AM - 1:00AM")
+Bar.find_or_create_by(name: "Backbar", address: "union square discreet alley", cover_charge: "none", hours_of_operation: "11:00AM - 1:00AM")
 
 
 Bar.all.each do |bar|
