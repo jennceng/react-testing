@@ -30,6 +30,7 @@ class App extends Component {
   }
 
   componentDidMount() {
+    debugger;
     fetch('/api/v1/bars.json')
       .then((response) => response.json())
       .then((responseData) => {
