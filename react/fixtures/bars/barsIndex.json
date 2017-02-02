@@ -1,9 +1,7 @@
 {"bars":
   [{"id":41,
     "name":"Drink",
-    "url":"http://localhost:3000/bars/41",
     "average_rating":4.666666666666667,
-    "editable":false,
     "reviews":
      [{"id":77,
        "bar_id":41,
@@ -26,9 +24,7 @@
 
    {"id":42,
     "name":"Charlie's Kitchen",
-    "url":"http://localhost:3000/bars/42",
     "average_rating":5.0,
-    "editable":false,
     "reviews":
      [{"id":80,
        "bar_id":42,
