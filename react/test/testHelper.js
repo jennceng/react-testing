@@ -11,7 +11,13 @@ import clickButton       from './support/clickButton';
 import select            from './support/select';
 import clickOn           from './support/clickOn';
 
+import { browserHistory } from 'react-router';
+import routes from 'routes';
+
+
 Object.assign(global, {
+  browserHistory,
+  routes,
   createNoContentResponse,
   createResponseFromFixture,
   jasmineEnzyme,

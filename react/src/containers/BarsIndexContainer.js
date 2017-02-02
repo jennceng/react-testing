@@ -26,6 +26,7 @@ class BarsIndexContainer extends Component {
           name={bar.name}
           address={bar.address}
           hours_of_operation={bar.hours_of_operation}
+          cover_charge={bar.cover_charge}
         />
       )
     })

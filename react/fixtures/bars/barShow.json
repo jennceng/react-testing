@@ -1,0 +1,59 @@
+{
+  "bar": {
+    "id": 1,
+    "name": "Paddy's Pub",
+    "average_rating": 1.9,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 2,
+        "body": "Diy humblebrag wolf hammock locavore. Ennui flannel butcher raw denim franzen. Five dollar toast portland quinoa pork belly chambray wayfarers. Art party next level cold-pressed trust fund salvia."
+      },
+      {
+        "id": 2,
+        "rating": 1,
+        "body": "Migas try-hard cronut fap. Crucifix tilde occupy fap. Helvetica polaroid pabst vhs. Carry microdosing raw denim franzen photo booth farm-to-table ramps offal."
+      },
+      {
+        "id": 3,
+        "rating": 1,
+        "body": "Chia synth normcore quinoa stumptown. Yuccie before they sold out tattooed five dollar toast austin. Yolo sriracha viral selfies lumbersexual literally."
+      },
+      {
+        "id": 4,
+        "rating": 4,
+        "body": "Farm-to-table portland vegan blog green juice aesthetic. Chambray microdosing pug cray master seitan green juice pickled. Semiotics listicle yuccie polaroid normcore."
+      },
+      {
+        "id": 5,
+        "rating": 3,
+        "body": "Xoxo aesthetic disrupt. Blue bottle locavore truffaut. Vinyl godard vegan."
+      },
+      {
+        "id": 6,
+        "rating": 1,
+        "body": "Twee keytar tousled. Franzen brunch chartreuse biodiesel gentrify mustache sustainable bitters. Semiotics etsy ramps venmo austin echo direct trade."
+      },
+      {
+        "id": 7,
+        "rating": 1,
+        "body": "Leggings cardigan celiac. Meggings wayfarers keytar actually pabst organic quinoa authentic. Knausgaard actually bushwick forage irony twee."
+      },
+      {
+        "id": 8,
+        "rating": 2,
+        "body": "Direct trade cred wolf trust fund. Cray meh flexitarian poutine blue bottle fashion axe skateboard iphone."
+      },
+      {
+        "id": 9,
+        "rating": 1,
+        "body": "Before they sold out blue bottle normcore cronut sriracha meditation. Yr cray migas quinoa mlkshk."
+      },
+      {
+        "id": 10,
+        "rating": 3,
+        "body": "Microdosing crucifix disrupt vegan. Yuccie flannel microdosing. Forage keytar 3 wolf moon."
+      }
+    ]
+  }
+}
