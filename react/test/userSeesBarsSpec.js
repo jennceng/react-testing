@@ -66,7 +66,7 @@ describe('Bars Index', () => {
 
       setTimeout(() => {
         let pageText = wrapper.text();
-        // console.log(pageText)
+
         expect(pageText).not.toMatch("Etsy cliche disrupt goth kombucha viral cold-pressed normcore.");
         expect(pageText).not.toMatch("Irony sriracha gastropub intelligentsia shoreditch.");
         expect(pageText).not.toMatch("Wes anderson raw denim listicle waistcoat biodiesel tacos.");
